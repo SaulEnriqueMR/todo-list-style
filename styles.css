@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eaeae9;
+}
+
+.main {
+  background: #2a2c41;
+  height: 100%;
+  padding: 1rem;
+}
+
+.title {
+  background: #343649;
+  border-radius: 1rem;
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  /*background: #209cee;*/
+  /*padding: 30px;*/
+  /*height: 100vh;*/
+}
+
+.todo-list {
+  /*background: #e8e8e8;*/
+  border-radius: 1rem;
+}
+
+.todo {
+  cursor: default;
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: .75rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  padding: .75rem;
+  font-size: 1.5rem;
+  border-right: 1rem !important;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px !important;
+  width: 60px;
+  /*line-height: 1.5rem !important;*/
+  /*font-size: 1.5rem;*/
+  padding: 0 !important;
+}
+
+.btn-content {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
